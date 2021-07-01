@@ -74,6 +74,7 @@ body>header.header .container nav {
     background: #181719;
     display: grid;
     place-items: center;
+    min-height: 100vh;
 }
 
 body>header.header #header-container.container.close nav#nav {
@@ -140,6 +141,7 @@ main.main .container {
     display: grid;
     grid: repeat(3, max-content) / 1fr;
     row-gap: 1rem;
+    font-weight: 700;
     width: 70%;
 }
 
